@@ -16,7 +16,7 @@ st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout
 def get_data_from_excel():
     df = pd.read_excel(
         io="../sales-data/supermarkt_sales.xlsx",
-        engine="openpyxl",
+        engine="calamine",
         sheet_name="Sales",
         skiprows=3,
         usecols="B:R",
