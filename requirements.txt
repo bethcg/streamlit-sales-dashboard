@@ -1,3 +1,4 @@
+jupyter-ai
 openpyxl
 pandas==2.0.1
 plotly==5.13.1
