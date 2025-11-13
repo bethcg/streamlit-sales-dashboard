@@ -1,0 +1,14 @@
+name: "base"
+channels:
+ - conda-forge
+ - nodefaults
+dependencies:
+  - pip
+  - pip:
+    - jupyter-ai
+    - openpyxl
+    - pandas
+    - plotly
+    - streamlit
+    - matplotlib
+prefix: "/opt/conda"
